@@ -1,6 +1,5 @@
 package cluster.management;
 
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -30,8 +29,7 @@ public class ServiceRegistry implements Watcher {
     System.out.println("registered to service registry");
   }
 
-  public synchronized List<String> getAllServiceAddresses()
-      throws InterruptedException, KeeperException {
+  public synchronized List<String> getAllServiceAddresses() throws InterruptedException, KeeperException {
     if (allServiceAddresses == null) {
       updateAddresses();
     }

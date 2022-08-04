@@ -1,1 +1,5 @@
-/Users/tianyuli/Desktop/distributed-system-project/src/main/java/LeaderElection.java
+/Users/tianyuli/Desktop/distributed-system-project/src/main/java/cluster/management/ServiceRegistry.java
+/Users/tianyuli/Desktop/distributed-system-project/src/main/java/Application.java
+/Users/tianyuli/Desktop/distributed-system-project/src/main/java/cluster/management/LeaderElection.java
+/Users/tianyuli/Desktop/distributed-system-project/src/main/java/OnElectionAction.java
+/Users/tianyuli/Desktop/distributed-system-project/src/main/java/cluster/management/OnElectionCallback.java
